@@ -11,10 +11,10 @@ package za.ac.iie.prog6112.icetask3st10503108;
  */
 
 
-public interface IWorkshop {
+public interface IWorkShop {
     String GetWorkshopName();
     int GetBookings();
 }
 
     
-}
+

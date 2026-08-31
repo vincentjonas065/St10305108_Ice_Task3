@@ -5,17 +5,12 @@
 package za.ac.iie.prog6112.icetask3st10503108;
 
 /**
- *
+ * Subclass representing a workshop delivered online.
  * @author Student
  */
-package workshopmanagement;
+public class OnlineWorksop extends WorkShop {
 
-/**
- * Subclass representing a workshop delivered online.
- */
-public class OnlineWorkshop extends Workshop {
-
-    public OnlineWorkshop(WorkshopModel model) {
+    public OnlineWorksop(WorkShopModel model) {
         super(model); // Calls the superclass constructor
     }
 
@@ -23,7 +18,4 @@ public class OnlineWorkshop extends Workshop {
     public String GetWorkshopMode() {
         return "ONLINE";
     }
-}
-
-    
 }

@@ -5,18 +5,12 @@
 package za.ac.iie.prog6112.icetask3st10503108;
 
 /**
- *
+ * Subclass representing a workshop delivered in a computer laboratory.
  * @author Student
  */
+public class LabWorkshop extends WorkShop {
 
-    package workshopmanagement;
-
-/**
- * Subclass representing a workshop delivered in a computer laboratory.
- */
-public class LabWorkshop extends Workshop {
-
-    public LabWorkshop(WorkshopModel model) {
+    public LabWorkshop(WorkShopModel model) {
         super(model); // Calls the superclass constructor
     }
 
