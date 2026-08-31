@@ -9,8 +9,12 @@ package za.ac.iie.prog6112.icetask3st10503108;
  *
  * @author Student
  */
-public class IWorkShop {
-    String GetWorkShopName();
-    int GetBookings(); 
+
+
+public interface IWorkshop {
+    String GetWorkshopName();
+    int GetBookings();
+}
+
     
 }
