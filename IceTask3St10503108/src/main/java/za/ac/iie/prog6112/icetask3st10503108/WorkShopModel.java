@@ -8,20 +8,17 @@ package za.ac.iie.prog6112.icetask3st10503108;
  *
  * @author Student
  */
-public class WorkShopModel { 
+public class WorkshopModel {
 
-/**
- * Model class used to store and populate raw workshop data.
- */
     public String WorkshopName;
     public int Bookings;
 
+    /**
+     * Model class used to store and populate raw workshop data.
+     */
     // Constructor to easily initialize model fields
-    public WorkShopModel(String workshopName, int bookings) {
+    public WorkshopModel(String workshopName, int bookings) {
         this.WorkshopName = workshopName;
         this.Bookings = bookings;
     }
 }
-
-    
-
