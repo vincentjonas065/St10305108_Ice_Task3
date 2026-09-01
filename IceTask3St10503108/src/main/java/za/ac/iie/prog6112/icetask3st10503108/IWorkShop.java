@@ -1,20 +1,12 @@
 package za.ac.iie.prog6112.icetask3st10503108;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
 /**
  *
  * @author Student
  */
+public interface IWorkshop {
 
-
-public interface IWorkShop {
     String GetWorkshopName();
+
     int GetBookings();
 }
-
-    
-
